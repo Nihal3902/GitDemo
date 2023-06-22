@@ -25,7 +25,7 @@ namespace SpecFlowProject1.StepDefinitions
         private IWebElement searchEnter;
         public void SearchPage()
         {
-            searchBox.SendKeys("testers Talk");
+            searchBox.SendKeys("mumbikar nikhil");
             searchEnter.Click();
 
         }
